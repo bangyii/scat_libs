@@ -15,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
   scat_msgs
   nav_msgs
   sensor_msgs
+  roslz4
 )
 
 catkin_package(

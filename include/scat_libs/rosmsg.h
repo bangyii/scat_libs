@@ -1,6 +1,7 @@
 #ifndef SCAT_ROSMSG
 #define SCAT_ROSMSG
 // ROS
+#include <ros/ros.h>
 #include <std_msgs/Header.h>
 #include <std_msgs/Float64MultiArray.h>
 #include <std_msgs/Float32MultiArray.h>
