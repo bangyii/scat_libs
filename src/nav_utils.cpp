@@ -1,4 +1,5 @@
 #include <scat_libs/nav_utils.h>
+#include <numeric>
 
 namespace nav_utils
 {
