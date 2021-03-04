@@ -51,6 +51,7 @@ bool checkRange(const geometry_msgs::Point& point1, const geometry_msgs::Point& 
 {
   if (pow(pow(point1.x - point2.x, 2) + pow(point1.y - point2.y, 2), 0.5) < range)
     return true;
+  return false;
 }
 
 double euclideanDistance(double point1[2], double point2[2])
